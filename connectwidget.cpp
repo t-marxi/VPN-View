@@ -6,7 +6,7 @@
 ConnectWidget::ConnectWidget(QWidget *parent) : QWidget(parent)
 {
 	QHBoxLayout * layout = new QHBoxLayout;
-	quickConnectBtn = new QPushButton(tr("QUICK CONNECT"));
+	quickConnectBtn = new QPushButton(tr("     QUICK CONNECT"));
 	quickConnectBtn->setObjectName("quickConnectBtn");
 	QPushButton * quickConnectLabelBtn = new QPushButton;
 	quickConnectLabelBtn->setObjectName("quickConnectLabelBtn");
@@ -14,7 +14,7 @@ ConnectWidget::ConnectWidget(QWidget *parent) : QWidget(parent)
 	quickConnectBtn->setObjectName("quickConnectLblBtn");
 	layout->addWidget(quickConnectBtn, 0, 0);
 
-	disconnectBtn = new QPushButton(tr("DISCONNECT"));
+	disconnectBtn = new QPushButton(tr("     DISCONNECT"));
 	disconnectBtn->setObjectName("disconnectBtn");
 	QPushButton * disconnectLabelBtn = new QPushButton;
 	disconnectLabelBtn->setObjectName("disconnectLabelBtn");

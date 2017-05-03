@@ -15,4 +15,7 @@
     <qresource prefix="/styles">
         <file>resources/css/style_btn.css</file>
     </qresource>
+    <qresource prefix="/fonts">
+        <file>resources/Fonts/Roboto_regular.ttf</file>
+    </qresource>
 </RCC>

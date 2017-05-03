@@ -2,6 +2,18 @@ QMainWindow{
 background-color: rgb(57,67,91);
 }
 
+QLabel#loginLabel{
+font-family: (:/fonts/resources/Fonts/Roboto_regular.ttf);
+font-weight: bold;
+color : rgb(98, 111, 140);
+}
+
+QLabel#logoutLabel{
+font-family: (:/fonts/resources/Fonts/Roboto_regular.ttf);
+font-weight: bold;
+color : rgb(98, 111, 140);
+}
+
 QPushButton#logoutBtn{
 background-image: url(:/assets/resources/Assets/Logout_normal.png);
 background-position: center;
@@ -56,6 +68,10 @@ min-width: 203px;
 min-height: 39px;
 max-width: 203px;
 max-height: 39px;
+font-family: (:/fonts/resources/Fonts/Roboto_regular.ttf);
+color :white;
+font-size: 9pt;
+font-weight: bold;
 }
 
 QPushButton#quickConnectBtn::hover {
@@ -81,6 +97,10 @@ min-width: 203px;
 min-height: 39px;
 max-width: 203px;
 max-height: 39px;
+font-family: (:/fonts/resources/Fonts/Roboto_regular.ttf);
+color :white;
+font-size: 9pt;
+font-weight: bold;
 }
 
 QPushButton#disconnectBtn::hover {
