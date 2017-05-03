@@ -24,8 +24,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    logwidget.cpp \
+    connectwidget.cpp \
+    labelbutton.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    logwidget.h \
+    connectwidget.h \
+    labelbutton.h
 
-FORMS    += mainwindow.ui
+FORMS    +=
+
+RESOURCES += \
+    resources.qrc

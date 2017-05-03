@@ -1,1 +1,18 @@
-<RCC/>
+<RCC>
+    <qresource prefix="/assets">
+        <file>resources/Assets/BlinkVPN_win_V6-InitialStatePreview.png</file>
+        <file>resources/Assets/Disconnect_btn.png</file>
+        <file>resources/Assets/Disconnect_btn_hover.png</file>
+        <file>resources/Assets/Login_hover.png</file>
+        <file>resources/Assets/Login_normal.png</file>
+        <file>resources/Assets/Logo.png</file>
+        <file>resources/Assets/Logout_hover.png</file>
+        <file>resources/Assets/Logout_normal.png</file>
+        <file>resources/Assets/Quickconnect_btn.png</file>
+        <file>resources/Assets/Quickconnect_btn_hover.png</file>
+        <file>resources/Assets/SWE_flag.png</file>
+    </qresource>
+    <qresource prefix="/styles">
+        <file>resources/css/style_btn.css</file>
+    </qresource>
+</RCC>

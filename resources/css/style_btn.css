@@ -1,1 +1,110 @@
-sd
+QMainWindow{
+background-color: rgb(57,67,91);
+}
+
+QPushButton#logoutBtn{
+background-image: url(:/assets/resources/Assets/Logout_normal.png);
+background-position: center;
+border: none;
+min-width: 22px;
+min-height: 20px;
+max-width: 22px;
+max-height: 20px;
+}
+
+QPushButton#logoutBtn::hover {
+background-image:url(:/assets/resources/Assets/Logout_hover.png);
+}
+
+QPushButton#loginBtn{
+background-image: url(:/assets/resources/Assets/Login_normal.png);
+background-position: center;
+border: none;
+min-width: 20px;
+min-height: 20px;
+max-width: 20px;
+max-height: 20px;
+}
+
+QPushButton#loginBtn::hover {
+background-image:url(:/assets/resources/Assets/Login_hover.png);
+}
+
+LabelButton#disconnectLblBtn{
+background-position: center;
+border: none;
+min-width: 203px;
+min-height: 39px;
+max-width: 203px;
+max-height: 39px;
+}
+
+LabelButton#quickConnectLblBtn{
+background-position: center;
+border: none;
+min-width: 203px;
+min-height: 39px;
+max-width: 203px;
+max-height: 39px;
+}
+
+QPushButton#quickConnectBtn{
+background-image: url(:/assets/resources/Assets/Quickconnect_btn.png);
+background-position: center;
+border: none;
+min-width: 203px;
+min-height: 39px;
+max-width: 203px;
+max-height: 39px;
+}
+
+QPushButton#quickConnectBtn::hover {
+background-image:url(:/assets/resources/Assets/Quickconnect_btn_hover.png);
+}
+
+QPushButton#quickConnectLabelBtn {
+background-image:url(:/assets/resources/Assets/SWE_flag.png);
+margin: 5px 0px 0px 5px;
+border: none;
+background-position: center;
+min-width: 29px;
+min-height: 29px;
+max-width: 29px;
+max-height: 29px;
+}
+
+QPushButton#disconnectBtn{
+background-image: url(:/assets/resources/Assets/Disconnect_btn.png);
+background-position: center;
+border: none;
+min-width: 203px;
+min-height: 39px;
+max-width: 203px;
+max-height: 39px;
+}
+
+QPushButton#disconnectBtn::hover {
+background-image:url(:/assets/resources/Assets/Disconnect_btn_hover.png);
+}
+
+QPushButton#disconnectLabelBtn {
+background-image:url(:/assets/resources/Assets/SWE_flag.png);
+margin: 5px 0px 0px 5px;
+border: none;
+background-position: center;
+min-width: 29px;
+min-height: 29px;
+max-width: 29px;
+max-height: 29px;
+}
+
+QWidget#labelWidget{
+background-image: url(:/assets/resources/Assets/Logo.png);
+min-width: 126px;
+min-height: 114px;
+max-width: 126px;
+max-height: 114px;
+}
+
+
+

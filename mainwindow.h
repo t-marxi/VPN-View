@@ -3,20 +3,19 @@
 
 #include <QMainWindow>
 
-namespace Ui {
-class MainWindow;
-}
+class QPushButton;
+class QWidget;
 
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget *parent = 0);
-    ~MainWindow();
+	explicit MainWindow(QWidget *parent = 0);
+	virtual ~MainWindow();
 
 private:
-    Ui::MainWindow *ui;
+	void init();
 };
 
 #endif // MAINWINDOW_H

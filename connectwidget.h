@@ -3,6 +3,8 @@
 
 #include <QWidget>
 
+class QPushButton;
+
 class ConnectWidget : public QWidget
 {
 	Q_OBJECT
@@ -12,6 +14,12 @@ public:
 signals:
 
 public slots:
+	void showQuickConnect();
+	void showDisconnect();
+
+private:
+	QPushButton * quickConnectBtn;
+	QPushButton * disconnectBtn;
 };
 
 #endif // CONNECTWIDGET_H
